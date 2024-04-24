@@ -9,11 +9,11 @@
 
 
 /* General styles */
-html, body {
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a
+    color: #FFFF00;
     font-family: "Raleway", sans-serif;
 }
 
@@ -24,6 +24,25 @@ header {
     z-index: 99;
     width: 100%;
 
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #FFFF00;
 }
 
 h1 {
