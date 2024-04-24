@@ -23,6 +23,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -62,6 +65,20 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
+}
+
+/*Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 
@@ -69,10 +86,53 @@ nav {
 main {
     background-color: orange;
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*Footer*/
 
 footer {
     background-color: green;
+}
+
+
+/* Media query: tablet and larget 768px and up */
+@media screen and  (min-width: 768px){
+    
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-right: 1rem;
+
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 288%;
+        line-height: 75px;
+        margin: 0 0,5rem;
+    }
+
+    main {
+        margin-top: 79px;
+
+    }
+}
+
+@media screen and (min-width: 992px){
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }  
 }
