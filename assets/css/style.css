@@ -17,7 +17,7 @@ body {
 
 /*Header*/
 header {
-    background-color: #ffffff;
+    color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -84,10 +84,19 @@ nav {
 
 /*main*/
 main {
-    background-color: orange;
+    
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/pexels-shkrabaanthony-4662355.jpg") no-repeat center center/cover;
+}
+
+
 
 /*Footer*/
 
