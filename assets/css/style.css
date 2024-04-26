@@ -7,22 +7,51 @@
 
 /* General styles */
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /*Generic project styles */
-    color: #f8ea21
+    color: #f8ea21;
     font-family: "Raleway", sans-serif;
 }
 
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: orange;
+}
+
+h4 {
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*Lilla rutan text */
+#page-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(216, 214, 191, 0.7);
+    width: 50vw;
+    height: 200px;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+
 /*Header*/
 header {
-    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.137);
+    backdrop-filter: blur(5px);
+    color: orange;
+    border-bottom: 2px solid black;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -35,37 +64,26 @@ header a {
 
 #menu {
     font-size: 110%;
+    text-transform: uppercase;
     letter-spacing: 4px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 menu > li {
     margin-bottom: 1em;
 }
 
-.active {
-    border-bottom: 1px solid black;
+ul li a:hover{
+    color: rgba(255, 166, 0, 0.562);
 }
 
-h1 {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: black
+.active {
+    border-bottom: 1px solid orange;
 }
 
 /*Navbar styles med dropdown toggle */
 nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%;
 }
 
 /*Nav toggle */
@@ -81,19 +99,30 @@ nav {
     font-size: 2rem;
 }
 
-
 /*main*/
 main {
-    
-    flex: 1 0 auto;
-    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/pexels-heyho-7031706.jpg) no-repeat center center/cover;
 }
 
 /* Hero section */
 #hero {
-    height: 600px;
+    height: 109vh;
+    width: 100vw;
+    background: url(../images/pexels-olly-3757941.jpg) no-repeat center center/cover;
+}
+
+/* About */
+#icon {
+    height: 100vh;
     width: 100%;
-    background: url("../images/pexels-shkrabaanthony-4662355.jpg") no-repeat center center/cover;
+    background: url(../images/pexels-shkrabaanthony-4662355.jpg) no-repeat center center/cover;
+    -ms-zoom: 50%;
 }
 
 
@@ -109,9 +138,9 @@ main {
 }
 
 #social-networks i {
-    font-size: 160%;
+    font-size: 1.8rem;
     padding: 5%;
-    color: rgb (248, 222, 16);
+    color: rgb(248, 222, 16);
 }
 
 /* Media query: tablet and larget 768px and up */
@@ -119,10 +148,7 @@ main {
     
     nav {
         display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+        margin-right: 1rem;
     }
 
     #menu {
@@ -142,15 +168,10 @@ main {
         line-height: 75px;
         margin: 0 0,5rem;
     }
-
-    main {
-        margin-top: 79px;
-
-    }
 }
 
 @media screen and (min-width: 992px){
     #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid orange;
     }  
 }
