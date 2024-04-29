@@ -10,22 +10,139 @@ body {
     display: flex;
     flex-direction: column;
     /*Generic project styles */
-    color: #f8ea21;
+    color: rgb(255, 165, 0);
     font-family: "Raleway", sans-serif;
+    
 }
 
 
 h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
+    font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: orange;
+    color: rgb(255, 165, 0);
+    text-shadow: 2px 2px #000000;
+    text-align: center;
 }
 
 h4 {
     color: white;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.login-wrapper {
+    display: flex;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    background: transparent;
+    margin: auto;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+div.login-wrapper {
+    position: ;
+
+}
+
+.login-wrapper h1 {
+    width: 100%;
+    height: 50px;
+    font-size: 36px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.login-wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    
+   
+}
+
+div .input-box {
+    margin: 20px auto;
+    
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+    
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.login-wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px;
+}
+
+.remember-forgot label input{
+    accent-color: #ffff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.login-wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.login-wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 /*Lilla rutan text */
@@ -42,12 +159,27 @@ h4 {
     border-radius: 20px;
 }
 
+/* JOIN US knapp */
+div.ab button {
+    width: 160px;
+    height: 40px;
+    background: green;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
 
 /*Header*/
 header {
     background-color: rgba(255, 255, 255, 0.137);
     backdrop-filter: blur(5px);
-    color: orange;
+    color: rgb(255, 166, 0);
     border-bottom: 2px solid black;
     padding: 0 1rem;
     position: fixed;
@@ -55,6 +187,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    text-shadow: 2px 2px #080606;
 }
 
 header a {
@@ -78,12 +211,20 @@ ul li a:hover{
 }
 
 .active {
-    border-bottom: 1px solid orange;
+    border-bottom: 1px solid rgb(255, 165, 0);
 }
 
-/*Navbar styles med dropdown toggle */
+/*Navbar styles med dropdown toggle kanske lägger till endast display: none; */
 nav {
     display: none;
+    position:   absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #1a1919;
+    top: 100%;
+
+   
 }
 
 /*Nav toggle */
@@ -112,6 +253,8 @@ main {
 
 /* Hero section */
 #hero {
+
+    display: flex;
     height: 109vh;
     width: 100vw;
     background: url(../images/pexels-olly-3757941.jpg) no-repeat center center/cover;
@@ -128,6 +271,10 @@ main {
 
 
 /*Footer*/
+.footer {
+    background-color: rgba(255, 255, 255, 0.137);
+    backdrop-filter: blur(5px);
+}
 
 #social-networks {
     text-align: center;
@@ -135,12 +282,13 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    
 }
 
 #social-networks i {
     font-size: 1.8rem;
     padding: 5%;
-    color: rgb(248, 222, 16);
+    color: rgb(255, 165, 0);
 }
 
 /* Media query: tablet and larget 768px and up */
@@ -148,7 +296,11 @@ main {
     
     nav {
         display: block;
+        position: relative;
+        box-shadow: none;
         margin-right: 1rem;
+        width: fit-content;
+        padding-right: 1rem;
     }
 
     #menu {
@@ -164,7 +316,7 @@ main {
     }
 
     #logo {
-        font-size: 288%;
+        font-size: 290%;
         line-height: 75px;
         margin: 0 0,5rem;
     }
@@ -172,6 +324,6 @@ main {
 
 @media screen and (min-width: 992px){
     #menu a:hover{
-        border-bottom: 1px solid orange;
+        border-bottom: 1px solid rgb(255, 165, 0);
     }  
 }
