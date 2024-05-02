@@ -16,6 +16,13 @@ body {
 }
 
 
+
+.fa-solidfa-heartbeat {
+color: rgb(0, 128, 0)0% 50%) 0% 50%)%);
+}
+
+
+
 h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
@@ -44,12 +51,12 @@ h4 {
     border-radius: 10px;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 div.login-wrapper {
-    position: ;
-
+    margin-bottom: 360px;
+    
 }
 
 .login-wrapper h1 {
@@ -69,6 +76,7 @@ div.login-wrapper {
 
 div .input-box {
     margin: 20px auto;
+    
     
 }
 
@@ -98,11 +106,11 @@ div .input-box {
     font-size: 20px;
 }
 
-.login-wrapper .remember-forgot {
+div .login-wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
-    margin: -15px;
+    margin: -15px 0 15;
 }
 
 .remember-forgot label input{
@@ -139,11 +147,22 @@ div .input-box {
     margin: 20px 0 15px;
 }
 
+div .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .register-link p a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
 }
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
 
 /*Lilla rutan text */
 #page-text {
@@ -160,7 +179,7 @@ div .input-box {
 }
 
 /* JOIN US knapp */
-div.ab button {
+div .ab button {
     width: 160px;
     height: 40px;
     background: green;
@@ -174,6 +193,10 @@ div.ab button {
 
 }
 
+div .register-link p {
+    
+
+}
 
 /*Header*/
 header {
@@ -248,11 +271,46 @@ main {
     justify-content: flex-end;
     width: 100vw;
     height: 100vh;
-    background: url(../images/pexels-heyho-7031706.jpg) no-repeat center center/cover;
-}
+    
+}    
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding:0;
+    margin:0;
+    left: 0px;
+    top: 0px;
+    z-index: -1000;
+    overflow:hidden;
+    }
+    
+    .videoPlayer {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    position:absolute;
+    bottom:0;
+    left:0;
+    }
+
+    #background-video {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        z-index: -1;
+
+    }
+    
+
 
 /* Hero section */
-#hero {
+#div.hero {
 
     display: flex;
     height: 109vh;
@@ -265,7 +323,7 @@ main {
     height: 100vh;
     width: 100%;
     background: url(../images/pexels-shkrabaanthony-4662355.jpg) no-repeat center center/cover;
-    -ms-zoom: 50%;
+    
 }
 
 
