@@ -55,7 +55,7 @@ h4 {
 }
 
 div.login-wrapper {
-    margin-bottom: 360px;
+   
     
 }
 
@@ -310,7 +310,7 @@ main {
 
 
 /* Hero section */
-#div.hero {
+.hero {
 
     display: flex;
     height: 109vh;
