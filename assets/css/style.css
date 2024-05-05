@@ -18,7 +18,7 @@ body {
 
 
 .fa-solidfa-heartbeat {
-color: rgb(0, 128, 0)0% 50%) 0% 50%)%);
+color: rgb(0, 128, 0)0% 50%) 0% 50%);
 }
 
 
@@ -29,7 +29,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(255, 165, 0);
-    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px #333333;
     text-align: center;
 }
 
@@ -311,7 +311,6 @@ main {
 
 /* Hero section */
 .hero {
-
     display: flex;
     height: 109vh;
     width: 100vw;
@@ -319,12 +318,97 @@ main {
 }
 
 /* About */
-#icon {
+
+.info {
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.heading h2 {
+    color: #ff6347;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+
+.info-content {
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+
+}
+
+.info-content h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.info-content p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.info-content button {
+    display: inline-block;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.info-image {
+    flex: 1;
+    width: 600px;
+    margin:auto;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-content button {
+    display: inline-block;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.info-content button:hover {
+    background-color: #ff6347;
+    transform: scale(1.1);
+
+}
+
+/* ÅTERKOMMER #icon { 
     height: 100vh;
     width: 100%;
     background: url(../images/pexels-shkrabaanthony-4662355.jpg) no-repeat center center/cover;
     
 }
+*/
 
 
 
