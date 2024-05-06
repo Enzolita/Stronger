@@ -199,7 +199,7 @@ div .register-link {
 }
 
 .home-button {
-    background-color: rgb(255, 165, 0);
+  background-color: rgb(255, 165, 0);
   color: white;
   padding: 15px 25px;
   text-decoration: none;
@@ -322,6 +322,7 @@ main {
     
 
 
+
 /* Hero section */
 .hero {
     display: flex;
@@ -336,7 +337,6 @@ main {
     margin-top: 79px;
     height: 90vh;
     background-color: #dee09c46;
-    overflow: hidden;
 }
 
 .heading h2 {
@@ -417,6 +417,43 @@ img {
 
 }
 
+.about-button {
+  background-color: rgb(255, 165, 0);
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.about-button:hover {
+    background-color: #ff6347;
+    transform: scale(1.1);
+}
+
+.redirect-button {
+    background-color: rgb(255, 165, 0);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Media query: tablet and larget 768px and up */
+@media screen and  (max-width: 800px){
+    
+    .redirect-button {
+        background-color: rgb(255, 165, 0);
+        color: white;
+        padding: 15px 25px;
+        text-decoration: none;
+        width: 50%;
+        border-radius: 10px;
+        text-align: center;
+    }
+    }
 
 
 /*Footer*/
