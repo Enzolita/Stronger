@@ -164,8 +164,28 @@ div .register-link {
 }
 
 
-/*Lilla rutan text */
-#page-text {
+/*Small square text */
+
+.login-wrapper {
+    display: flex;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    background: transparent;
+    margin: auto;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-content {
+    text-align: center;
+    margin: auto;
+    top: 100px;
+    font-size: 130%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,25 +193,20 @@ div .register-link {
     width: 50vw;
     height: 200px;
     text-align: center;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    border-radius: 20px;
-}
-
-/* JOIN US knapp */
-div .ab button {
-    width: 160px;
-    height: 40px;
-    background: green;
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 18px;
     border-radius: 10px;
-    cursor: pointer;
-    
-
+    text-shadow: 2px 2px #080606;
+    align-items: center;
 }
+
+.home-button {
+    background-color: rgb(255, 165, 0);
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  width: 20%;
+  border-radius: 10px;
+}
+
 
 div .register-link p {
     
@@ -237,7 +252,7 @@ ul li a:hover{
     border-bottom: 1px solid rgb(255, 165, 0);
 }
 
-/*Navbar styles med dropdown toggle kanske lägger till endast display: none; */
+/*Navbar styles with dropdown toggle */
 nav {
     display: none;
     position:   absolute;
@@ -267,11 +282,10 @@ nav {
 main {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
-    
 }    
 
 
@@ -304,7 +318,6 @@ main {
         top: 0;
         left: 0;
         z-index: -1;
-
     }
     
 
@@ -320,12 +333,14 @@ main {
 /* About */
 
 .info {
-    background-color: #f8f8f8;
+    margin-top: 79px;
+    height: 90vh;
+    background-color: #dee09c46;
     overflow: hidden;
 }
 
 .heading h2 {
-    color: #ff6347;
+    color: #dc501d;
     font-size: 55px;
     text-align: center;
     margin-top: 35px;
@@ -349,7 +364,7 @@ main {
 .info-content h2 {
     font-size: 38px;
     margin-bottom: 20px;
-    color: #333;
+    color: #dc501d;
 }
 
 .info-content p {
@@ -361,7 +376,7 @@ main {
 
 .info-content button {
     display: inline-block;
-    background-color: #ff4500;
+    background-color: #bd4b22;
     color: #fff;
     padding: 12px 24px;
     border-radius: 5px;
@@ -402,20 +417,12 @@ img {
 
 }
 
-/* ÅTERKOMMER #icon { 
-    height: 100vh;
-    width: 100%;
-    background: url(../images/pexels-shkrabaanthony-4662355.jpg) no-repeat center center/cover;
-    
-}
-*/
-
 
 
 /*Footer*/
 .footer {
     background-color: rgba(255, 255, 255, 0.137);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(50px);
 }
 
 #social-networks {
