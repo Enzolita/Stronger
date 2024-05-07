@@ -328,10 +328,12 @@ main {
 
 /* About */
 
+#about-main{
+    background-color: #dee09c46;
+}
+
 .info {
     margin-top: 79px;
-    background-color: #dee09c46;
-
 }
 
 .heading h2 {
@@ -347,7 +349,6 @@ main {
     align-items: center;
     width: 90%;
     margin: 65px auto;
-    overflow: hidden;
     flex-wrap: wrap;
 }
 
