@@ -1,27 +1,19 @@
-<p align="center"><img src="/assets/images/responsive.png" alt="drawing" width="800"/></p>
-
-
-# Stronger
 # Stronger
 ### For this project I've created a website for a gym called Stronger that's based in Stockholm Sweden.
 ### This website is created mainly for people who want to make a change their lifestyle and for those who love fitness and to join a community with people who share the same interest.
-### How it benefits the Users, Users Demographic - Whom does the site target and how will it benefit them
+### The target audience for this website will be people looking to get into fitness or are currently already working out.
 ----------------------------------
 
 
 
 
 # Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. 
-You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 
-<hr> 
 
 **Navbar**
 
-  - Featured on all three pages, the fully responsive navigation bar includes links to the logo, home page, gallery, and sign-up page. It is identical on each page to facilitate easy navigation.
-  - This section allows users to navigate seamlessly between pages on all devices without needing to use the 'back' button.
+  - A fully responsive navigation bar that that allows users to navigate to other page in the website, with a hover effect on the current active page. The main logo also acts as a second link to allow to user to return back to the home page.
 
   <details><summary>Navbar Screenshot</summary>
 
@@ -29,19 +21,18 @@ You will need to explain what value each of the features provides for the user, 
 
   </details>
 
-<hr> 
 
-**Services**
+**About Us**
 
-  - Services section highlights available to the client services in a form of cards, each with a Call To Action button leading to the Contact form 
+  - A page that provides the user with information about the gym and community.
 
-  <details><summary>Services Screenshot</summary>
+  <details><summary>About Us Screenshot</summary>
 
   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
   </details>
 
-<hr> 
+
 
 **The Gallery**
 
