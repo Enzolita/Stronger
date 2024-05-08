@@ -33,32 +33,16 @@
   </details>
 
 
+**Sign Up**
 
-**The Gallery**
-
-  - Gallery showcases various artwork by the Photographer, or images of past events
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-  <details><summary>Gallery Screenshot</summary>
-
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
-  </details>
-
-<hr>
-
-**Contact Form**
-
-  - An interactive contact form to enable users to get in touch with the company by signing up and recieving an email.
-  - Includes fields for name, email and a message
+  - An interactive sign up form to enable users to get in touch with the company by signing up and recieving an email.
+  - Includes fields for name and email. --- sends one further to a thank you sign up page
 
   <details><summary>Contact Form Screenshot</summary>
 
   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
   </details>
-
-<hr> 
 
 **The Footer**
 
