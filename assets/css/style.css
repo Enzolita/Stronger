@@ -279,6 +279,8 @@ nav {
     font-size: 2rem;
 }
 
+
+
 /*main*/
 main {
     display: flex;
@@ -484,6 +486,7 @@ img {
 
 /* Media query: tablet and larger 768px and up */
 @media screen and  (min-width: 768px){
+
     
     nav {
         display: block;
@@ -545,4 +548,14 @@ img {
     }
 
 }
+
+
+@media screen and (max-width: 768px){
+    nav ul li{
+        margin: 1.5rem 0;
+    }
+
+}
+
+
 
