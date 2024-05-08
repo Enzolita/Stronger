@@ -68,30 +68,21 @@
   - Active page has a text decoration effect to indicate to the user which page they are on.
   - Check responsiveness on navigation bar on different resolutions.
 
-**Navbar**
+**Footer**
 
+- Footer is sticky to the bottom of the page.
+- The social media links take the user to the correct social media page but also opens up in a new tab.
 
+**Sign up Form**
 
-  
-#### Lighthouse
+- Make sure empty form can't be submitted.
+- Make sure the input field have the correct type and show html browser error.
+- When the form is correctly filled in, the user is correctly directed to the submit.html page.
 
-**Introduction**
-This report presents the results of Lighthouse testing conducted to assess the performance, accessibility, best practices, SEO, and PWA compliance of [Website Name].
+**Call to action buttons**
 
-**Test Execution**
-Lighthouse tests were executed using the Google Chrome browser's DevTools.
+- Make sure all buttons are redirecting the user to the correct page.
 
-**Test Metrics**
-- Performance Score: 81
-- Accessibility Score: 93
-- Best Practices Score: 92
-- SEO Score: 92
-
-**Detailed Results**
-- **Performance**: The website's performance score is 81, indicating good overall performance. However, there is room for improvement to further optimize loading times.
-- **Accessibility**: The website excels in accessibility, with a score of 93, indicating strong adherence to accessibility standards. Minimal accessibility issues were detected.
-- **Best Practices**: The website follows best practices with a score of 92. There are minor areas for improvement, particularly in script loading.
-- **SEO**: SEO performance is strong, with a score of 92. The website has well-optimized meta tags and structured data markup.
 
 **Areas for Improvement**
 - Performance can be enhanced by optimizing resource loading and reducing unnecessary requests.
