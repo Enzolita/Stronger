@@ -12,7 +12,8 @@
 
   <details><summary>Navbar Screenshot</summary>
 
-  ![Project navbar](https://github.com/Enzolita/Stronger/blob/main/documentation/nav-large.png)
+  ![Project navbar large](https://github.com/Enzolita/Stronger/blob/main/documentation/nav-large.png)
+  ![Project navbar small](https://github.com/Enzolita/Stronger/blob/main/documentation/nav-small.png)
   </details>
 
 **About Us**
@@ -21,10 +22,9 @@
 
   <details><summary>About Us Screenshot</summary>
 
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+  ![About us](https://github.com/Enzolita/Stronger/blob/main/documentation/about-us.png)
 
   </details>
-
 
 **Sign Up**
 
@@ -34,7 +34,7 @@
 
   <details><summary>Sign Up Form Screenshot</summary>
 
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+ ![Sign up](https://github.com/Enzolita/Stronger/blob/main/documentation/signup-form.png)
 
   </details>
 
@@ -45,7 +45,7 @@
 
   <details><summary>Footer Screenshot</summary>
 
-   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
+  ![Footer](https://github.com/Enzolita/Stronger/blob/main/documentation/footer.png)
 
   </details>
 
@@ -79,6 +79,17 @@
 ## Responsiveness
 
  - I leveraged the developer tools to test the responsiveness of the project across different resolutions.
+
+## Lighthouse Testing
+
+**Home Page Results**
+![Lighthouse results for Home Page](https://github.com/Enzolita/Stronger/blob/main/documentation/lh-home.png)
+**About Us Page Results**
+![Lighthouse results for About Page](https://github.com/Enzolita/Stronger/blob/main/documentation/lh-about.png)
+**Sign Up Page Results**
+![Lighthouse results for Sign Up page](https://github.com/Enzolita/Stronger/blob/main/documentation/lh-signup.png)
+**Submit Page Results**
+![Lighthouse results for Submit page](https://github.com/Enzolita/Stronger/blob/main/documentation/lh-submit.png)
 
 **Known Issues**
 - The footer on the about us page and sign up page does not match the home and submit page.
