@@ -1,19 +1,20 @@
 <p align="center"><img src="/assets/images/responsive.png" alt="drawing" width="800"/></p>
 
 
-# Introduction
 # Stronger
-### Project Description - Provide a brief, one- or two-sentence description of what your project does. This should be a high-level summary that quickly conveys the project's purpose.
-### Project Purpose - Explain why your project exists and what problem it aims to solve. This helps users understand the context and motivation behind your project. 
+# Stronger
+### For this project I've created a website for a gym called Stronger that's based in Stockholm Sweden.
+### This website is created mainly for people who want to make a change their lifestyle and for those who love fitness and to join a community with people who share the same interest.
 ### How it benefits the Users, Users Demographic - Whom does the site target and how will it benefit them
+----------------------------------
 
 
 
 
-# Features 
-
+# Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. 
 You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
 
 <hr> 
 
@@ -53,11 +54,11 @@ You will need to explain what value each of the features provides for the user, 
 
   </details>
 
-<hr> 
+<hr>
 
 **Contact Form**
 
-  - An interactive contact form to enable users to get in touch with the company
+  - An interactive contact form to enable users to get in touch with the company by signing up and recieving an email.
   - Includes fields for name, email and a message
 
   <details><summary>Contact Form Screenshot</summary>
@@ -109,8 +110,7 @@ While the current version of the project is fully functional, we have some excit
 |  Feature |  Action | Effect |
 |---|---|---|
 |Logo|Click|Brings back to Home page|
-|Navbar Links|Click on Gallery|Opens Gallery|
-||Click on About|Opens About page|
+|Navbar Links|||Click on About|Opens About page|
 ||Click on Contact|Opens Contact page|
 |Contact Page|Fill out the form and submit|A form dump is rendered|
 ||Attempt to submit empty|Error pops up in field that's left empty|
