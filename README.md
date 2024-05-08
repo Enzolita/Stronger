@@ -3,14 +3,8 @@
 ### For this project I've created a website for a gym called Stronger that's based in Stockholm Sweden.
 ### This website is created mainly for people who want to make a change their lifestyle and for those who love fitness and to join a community with people who share the same interest.
 ### The target audience for this website will be people looking to get into fitness or are currently already working out.
-----------------------------------
-
-
-
 
 # Features
-
-
 
 **Navbar**
 
@@ -18,10 +12,8 @@
 
   <details><summary>Navbar Screenshot</summary>
 
-  <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
-
+  ![Project navbar](https://github.com/Enzolita/Stronger/blob/main/documentation/nav-large.png)
   </details>
-
 
 **About Us**
 
