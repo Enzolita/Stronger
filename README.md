@@ -56,22 +56,23 @@
 
   </details>
 
+# Manual Testing
 
-## Manual Testing 
+## Feature Testing
 
-#### Features Testing
+**Navbar**
 
-|  Feature |  Action | Effect |
-|---|---|---|
-|Logo|Click|Brings back to Home page|
-|Navbar Links|||Click on About|Opens About page|
-||Click on Contact|Opens Contact page|
-|Contact Page|Fill out the form and submit|A form dump is rendered|
-||Attempt to submit empty|Error pops up in field that's left empty|
-|Social Media Links|Test Instagram link|Instagram profile opens in a separate tab|
+  - Click on each navigation link to make sure that the correct page is showing and redirected to.
+  - Mouse over hover effect when hovering on a navigation link.
+  - Navbar is sticky to top of page when scrolling down.
+  - Active page has a text decoration effect to indicate to the user which page they are on.
+  - Check responsiveness on navigation bar on different resolutions.
 
-<hr>
+**Navbar**
 
+
+
+  
 #### Lighthouse
 
 **Introduction**
