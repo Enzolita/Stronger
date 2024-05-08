@@ -83,6 +83,9 @@
 
 - Make sure all buttons are redirecting the user to the correct page.
 
+## Responsiveness
+
+ - I leveraged the developer tools to test the responsiveness of the project across different resolutions.
 
 **Areas for Improvement**
 - Performance can be enhanced by optimizing resource loading and reducing unnecessary requests.
@@ -90,124 +93,11 @@
 - Best practices can be further improved by optimizing script loading and code splitting.
 - Maintain and regularly update meta tags and structured data markup to ensure strong SEO performance.
 
-**Visuals**
-
-<p align="center"><img src="https://res.cloudinary.com/dugnokxox/image/upload/v1692960667/Screenshot_2023-08-25_at_11.50.29_cfmkxt.png" alt="drawing" width="800"/></p>
-
-<hr>
-
-#### Browsers
-
-**Supported Browsers and Devices**
-Our web application is officially tested and supported on the following browsers and devices:
-- Google Chrome (latest version)
-- Mozilla Firefox (latest version)
-
-**Responsiveness Testing**
-We conduct manual responsiveness testing on Chrome and Firefox to ensure a seamless user experience.
-
-**Test Results**
-
-| Device/Screen Size  | Chrome Performance | Firefox Performance |
-|----------------------|--------------------|---------------------|
-| Desktop (1920x1080) | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Laptop (1366x768)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Tablet (iPad)       | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-| Mobile (iPhone X)   | Describe performance and issues on Chrome | Describe performance and issues on Firefox |
-
 **Known Issues**
 - [List any known responsiveness issues or limitations]
 
-**Recommendations**
-If you encounter any responsiveness issues, we recommend:
-- Updating your browser to the latest version.
-- Trying an alternative device or screen size for optimal viewing.
-
-<hr>
-
-#### Screen Sizes testing
-
-**Introduction**
-This section provides an overview of how our web application [Website Name] performs across different screen sizes.
-
-**Supported Screen Sizes**
-Our web application is designed to be responsive and adapt to various screen sizes. Below are the screen sizes we have tested:
-
-| Screen Size     | Description             |
-|-----------------|-------------------------|
-| Desktop         | 1920x1080 pixels        |
-| Laptop          | 1366x768 pixels         |
-| Tablet (iPad)   | 768x1024 pixels (portrait) and 1024x768 pixels (landscape) |
-| Mobile (iPhone) | 375x812 pixels (iPhone X, portrait) and 812x375 pixels (iPhone X, landscape) |
-
-**Testing Results**
-
-| Screen Size     | Test Results           |
-|-----------------|------------------------|
-| Desktop         | Describe performance and issues on different browsers |
-| Laptop          | Describe performance and issues on different browsers |
-| Tablet (iPad)   | Describe performance and issues on different browsers |
-| Mobile (iPhone) | Describe performance and issues on different browsers |
-
-<hr> 
-
 #### Bugs Resolved
 
-
-**Introduction**
-This section provides a summary of bugs that have been identified, reported, and subsequently resolved in [Website Name].
-
-**Bug Tracking**
-Below is a summary of resolved bugs:
-
-| Bug ID | Bug Description | Status |
-|--------|-----------------|--------|
-| #001   | Describe the bug and its impact on the user experience. | Resolved |
-| #002   | Describe the bug and its impact on the user experience. | Resolved |
-| #003   | Describe the bug and its impact on the user experience. | Resolved |
-| #004   | Describe the bug and its impact on the user experience. | Resolved |
-| #005   | Describe the bug and its impact on the user experience. | Resolved |
-
-**Bug Details**
-Here are the details of the resolved bugs:
-
-**Bug #001**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #002**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #003**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #004**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-**Bug #005**
-- **Description**: Describe the bug and the steps to reproduce it.
-- **Resolution**: Explain how the bug was resolved, including any code changes or fixes.
-- **Impact**: Discuss the impact of this bug on users and the importance of the fix.
-
-<hr>
-
-#### Bugs Unresolved(if applicable)
-
-| Bug ID | Bug Description | Status |
-|--------|-----------------|--------|
-| #001   | Describe the bug and its impact on the user experience. | Unesolved |
-| #002   | Describe the bug and its impact on the user experience. | Unesolved |
-| #003   | Describe the bug and its impact on the user experience. | Unesolved |
-| #004   | Describe the bug and its impact on the user experience. | Unesolved |
-| #005   | Describe the bug and its impact on the user experience. | Unesolved |
-<hr>
 
 #### Validator Testing 
 - HTML
@@ -218,15 +108,16 @@ Here are the details of the resolved bugs:
 
 
 ## Deployment
+ 
+**Manual Deployment**
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
+  The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://enzolita.github.io/Stronger/index.html
+
 
 
 ## Credits 
