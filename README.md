@@ -3,6 +3,8 @@
 ### For this project I've created a website for a gym called Stronger that's based in Stockholm Sweden.
 ### This website is created mainly for people who want to make a change their lifestyle and for those who love fitness and to join a community with people who share the same interest.
 ### The target audience for this website will be people looking to get into fitness or are currently already working out.
+[The live link can be found here](https://enzolita.github.io/Stronger/index.html)
+---
 
 # Features
 
@@ -94,9 +96,6 @@
 **Known Issues**
 - The footer on the about us page and sign up page does not match the home and submit page.
 
-#### Bugs Resolved
-
-
 #### Validator Testing 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
@@ -106,8 +105,6 @@
   - There is one warning relating to the imported css stylesheet and this is related to imported stylesheets not being checked in direct input or file upload modes.
 
 ## Deployment
- 
-
 
 **Manual Deployment**
 
