@@ -141,4 +141,4 @@ You can break the credits section up into Content and Media, depending on what y
 
 #### Media
 
-The following images used in this project are sourced from Unsplash and are used under their respective licenses:
+The following images used in this project are sourced from Pexel and are used under their respective licenses:

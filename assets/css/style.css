@@ -262,6 +262,8 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #1a1919;
     top: 100%;
+    background-color: black;
+    font-weight: bold;
 }
 
 /*Nav toggle */
@@ -490,6 +492,7 @@ img {
         margin-right: 1rem;
         width: fit-content;
         padding-right: 1rem;
+      
     }
 
     #menu {
