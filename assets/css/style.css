@@ -525,3 +525,21 @@ img {
     }
 }
 
+
+/* adjust layout of about page */
+@media screen and (max-width: 1147px){
+    .info-image {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .info-content {
+    flex: 1;
+    width: 100%;
+    margin: 0px 25px;
+    }
+
+}
+
