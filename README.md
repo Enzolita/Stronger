@@ -1,4 +1,5 @@
 # Stronger
+![Responsive view of Stronger-Project on all devices](https://github.com/Enzolita/Stronger/blob/main/documentation/responsive.png)
 ### For this project I've created a website for a gym called Stronger that's based in Stockholm Sweden.
 ### This website is created mainly for people who want to make a change their lifestyle and for those who love fitness and to join a community with people who share the same interest.
 ### The target audience for this website will be people looking to get into fitness or are currently already working out.
@@ -87,14 +88,8 @@
 
  - I leveraged the developer tools to test the responsiveness of the project across different resolutions.
 
-**Areas for Improvement**
-- Performance can be enhanced by optimizing resource loading and reducing unnecessary requests.
-- Continue monitoring accessibility to maintain a high standard and address any emerging issues.
-- Best practices can be further improved by optimizing script loading and code splitting.
-- Maintain and regularly update meta tags and structured data markup to ensure strong SEO performance.
-
 **Known Issues**
-- [List any known responsiveness issues or limitations]
+- The footer on the about us page and sign up page does not match the home and submit page.
 
 #### Bugs Resolved
 
