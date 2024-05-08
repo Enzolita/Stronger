@@ -85,12 +85,19 @@
 ## Lighthouse Testing
 
 **Home Page Results**
+
 ![Lighthouse results for Home Page](https://github.com/Enzolita/Stronger/blob/main/documentation/lh-home.png)
+
 **About Us Page Results**
+
 ![Lighthouse results for About Page](https://github.com/Enzolita/Stronger/blob/main/documentation/lh-about.png)
+
 **Sign Up Page Results**
+
 ![Lighthouse results for Sign Up page](https://github.com/Enzolita/Stronger/blob/main/documentation/lh-signup.png)
+
 **Submit Page Results**
+
 ![Lighthouse results for Submit page](https://github.com/Enzolita/Stronger/blob/main/documentation/lh-submit.png)
 
 **Known Issues**
