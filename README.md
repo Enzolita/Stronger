@@ -36,9 +36,10 @@
 **Sign Up**
 
   - An interactive sign up form to enable users to get in touch with the company by signing up and recieving an email.
-  - Includes fields for name and email. --- sends one further to a thank you sign up page
+  - Includes fields for name and email.
+  - On successfull submission the users redirect to a thank you page in order to provide feedback to the user.
 
-  <details><summary>Contact Form Screenshot</summary>
+  <details><summary>Sign Up Form Screenshot</summary>
 
   <p align="center"><img src="https://placehold.co/600x400" alt="drawing" width="600"/></p>
 
@@ -46,8 +47,8 @@
 
 **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user.
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
   <details><summary>Footer Screenshot</summary>
 
@@ -55,28 +56,6 @@
 
   </details>
 
-<hr> 
-
-
-
-
-## Future Features
-While the current version of the project is fully functional, we have some exciting features planned for future updates. Here are a few ideas that we didn't have time to implement in this release:
-
-1. **Client Galleries**:
-   - Allow photographers to create private galleries for clients to view and download their photos securely.
-2. **Online Booking and Scheduling**:
-   - Implement a booking system that allows clients to schedule sessions with photographers, choose dates, and make payments online.
-3. **Photo Editing Tools**:
-   - Integrate basic photo editing tools like cropping, rotating, and applying filters directly on the website to enhance user-generated photos.
-4. **Print Ordering**:
-   - Enable clients to order prints, canvases, or other products featuring their favorite photos directly from the website.
-5. **Portfolio Builder**:
-   - Provide photographers with tools to easily create and customize their online portfolios, including options for different styles and layouts.
-6. **Blog or News Section**:
-   - Add a blog or news section to share photography tips, behind-the-scenes stories, and updates about your services.
-
-<hr>
 
 ## Manual Testing 
 
