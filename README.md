@@ -6,11 +6,35 @@
 [The live link can be found here](https://enzolita.github.io/Stronger/index.html)
 ---
 
+# Design
+
+ **Fonts**
+
+I chose to opt for the Raleway and Poppins fonts for this project and few reasons why they stood out to me,
+- Readability - I found both fonts ensured the content remained easy to read an digest across all resolutions.
+- Versatility - Raleway and Poppins adapt well to various contexts without sacrificing readability.
+- Distinctiveness - Raleway font came across very elegant and refined, whereas Poppins contributes a more friendly and approachable vibe.
+
+**Images**
+
+I used some free source images from Pexels for multiple reasons,
+- Firstly, these images provide visual context and evoke a sense of activity and fitness, aligning perfectly with the theme or content of the project.
+- Secondly, by choosing high-quality images from Pexels, I ensure a professional and polished appearance, enhancing the overall aesthetic appeal of the project.
+- Finally, I chose images that I felt would resonate with my audience, whether showcasing workout routines via video or personnel.
+
+**Colors**
+
+- I used the color orange as main representation for the brand Stronger.
+- Black and white were used across the project primarily for text or to improve readability.
+- Finally text shadow was used across the project in moments were contrast was an issue for example light background and light color text.
+
+
 # Features
 
 **Navbar**
 
   - A fully responsive navigation bar that that allows users to navigate to other page in the website, with a hover effect on the current active page. The main logo also acts as a second link to allow to user to return back to the home page.
+
 
   <details><summary>Navbar Screenshot</summary>
 
